@@ -5,7 +5,7 @@ description = "Control LCDs on QNAP devices"
 dependencies = [
     "pyserial (>=3.5,<4.0)"
 ]
-requires-python = ">=3.12,<4.0"
+requires-python = ">=3.11,<4.0"
 authors = [
     {name = "Wil",email = "98198668+Wilaz@users.noreply.github.com"}
 ]
@@ -20,6 +20,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Typing :: Typed",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
