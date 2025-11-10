@@ -1,0 +1,36 @@
+[project]
+name = "QNAPControl"
+version = "0.1.0"
+description = "Control LCDs on QNAP devices"
+dependencies = [
+    "pyserial (>=3.5,<4.0)"
+]
+requires-python = ">=3.12,<4.0"
+authors = [
+    {name = "Wil",email = "98198668+Wilaz@users.noreply.github.com"}
+]
+readme = "README.md"
+license = "MIT"
+keywords = ["qnap", "nas", "lcd"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Embedded Systems",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+[project.urls]
+Repository = "https://github.com/Wilaz/QNAPControl"
+
+[tool.poetry]
+packages = [{include = "QNAPControl", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
